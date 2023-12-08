@@ -1,0 +1,54 @@
+/* Style the dropdown menu items */
+.dropdown-menu {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.dropdown-menu a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* Show the dropdown menu when .dropdown-toggle is hovered */
+.dropdown-toggle:hover + .dropdown-menu,
+.dropdown-menu:hover {
+  max-height: 300px; /* Adjust the maximum height as needed */
+}
+
+/* Style the dropdown toggle link */
+.dropdown-toggle {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.dropdown-toggle:hover {
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* Style the active dropdown item */
+.nav-item.dropdown.active {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Style the navbar background and text color */
+.navbar {
+  background-color: #000;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
